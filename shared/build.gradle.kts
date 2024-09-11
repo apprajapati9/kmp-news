@@ -26,7 +26,24 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             //put your multiplatform dependencies here
+            implementation(libs.kotlinx.coroutines.core)
         }
+
+        //similar way to do this with diff syntax
+//        val androidMain by getting {
+//            dependencies {
+//                implementation(libs.androidx.viewmodel)
+//            }
+//        }
+
+        androidMain.dependencies{
+            implementation(libs.androidx.viewmodel)
+        }
+
+        iosMain.dependencies{
+
+        }
+
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
