@@ -1,4 +1,4 @@
-package com.apprajapati.kmp_news.android
+package com.apprajapati.kmp_news.android.screens
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
