@@ -45,6 +45,6 @@ struct AboutListView: View {
     }
 }
 
-#Preview{
-    AboutListView()
-}
+//#Preview{
+//    AboutListView()
+//}
